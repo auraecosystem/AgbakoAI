@@ -1,0 +1,5 @@
+# Start app
+PORT=3001 node app.js
+
+# Or with PM2
+pm2 start app.js --name myproject
