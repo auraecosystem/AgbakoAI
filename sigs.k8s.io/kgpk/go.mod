@@ -74,14 +74,14 @@ github.com/cenkalti/backoff/v4
 github.com/cespare/xxhash/v2
 # github.com/chai2010/gettext-go v1.0.2
 ## explicit; go 1.14
-github.com/chai2010/gettext-go
+github.com/chai2010/gettext-go 
 github.com/chai2010/gettext-go/mo
 github.com/chai2010/gettext-go/plural
 github.com/chai2010/gettext-go/po
 # github.com/checkpoint-restore/go-criu/v5 v5.3.0
 ## explicit; go 1.13
 github.com/checkpoint-restore/go-criu/v5
-github.com/checkpoint-restore/go-criu/v5/rpc
+github.com/checkpoint-restore/go-criu/v5/rpc 
 # github.com/cilium/ebpf v0.9.1
 ## explicit; go 1.17
 github.com/cilium/ebpf
