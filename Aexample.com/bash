@@ -1,5 +1,16 @@
 # Start app
-PORT=3001 node app.js
+PORT=9095 node app.js
 
 # Or with PM2
-pm2 start app.js --name myproject
+pm2 start app.js --name my-projects
+sudo mkdir -p /var/www/sites/my-newapp
+sudo nano /var/www/sites/my-newapp/index.html
+
+/var/www/sites/
+├── qubuhub
+├── lamis
+├── fadaka
+├── project1
+└── project2
+sudo nginx -t
+sudo systemctl reload nginx
