@@ -1,0 +1,113 @@
+# OpenAI Developers plugin for Codex
+
+The OpenAI Developers plugin helps you build AI applications and agents in
+Codex with OpenAI Platform access and OpenAI API setup guidance. It works
+together with the
+[OpenAI Docs Skill](https://github.com/openai/skills/tree/main/skills/.curated/openai-docs)
+that comes bundled with your Codex install.
+
+It includes:
+
+- **OpenAI API Platform:** connect Codex to the
+  [OpenAI API Platform](https://platform.openai.com/).
+- **API key setup:** create, save, and connect a project API key from Codex when
+  your app needs OpenAI API access.
+- **Agents SDK:** build and deploy OpenAI Agents SDK apps from an idea, a repo,
+  or a prior Codex thread.
+- **Troubleshooting:** identify common OpenAI API failures and route
+  you to the right next step.
+
+
+
+For API key setup, the plugin creates new API keys in your Default Org under
+  the Default project. You can set your default organization in your [profile
+  settings](https://platform.openai.com/settings/profile/).
+
+
+
+## Get started with Codex
+
+If you are new to Codex, start here before installing the plugin:
+
+1. [Download the Codex app](https://developers.openai.com/codex/app#getting-started) for macOS or Windows.
+2. Follow the [Codex quickstart](https://developers.openai.com/codex/quickstart) to sign in, choose a
+   project, and send your first message.
+
+## Install the plugin
+
+<div slot="app">
+    <ButtonLink
+  href="codex://plugins/install/openai-developers?marketplace=openai-curated"
+      color="primary"
+      variant="solid"
+      size="lg"
+      pill
+      className="mt-2"
+    >
+      Install the OpenAI Developers plugin
+    </ButtonLink>
+  </div>
+
+  <div slot="cli">
+    <WorkflowSteps variant="headings">
+    1. Open Codex
+
+       Start Codex from your terminal:
+
+  ```bash
+       codex
+   ```
+
+    2. Open the plugin browser
+
+       Run:
+
+   ```go
+       /plugins
+ ```
+»
+    3. Install the plugin
+    
+  Search for **OpenAI Developers**, open it, and select `Install plugin`.
+
+  4. Complete any setup prompts
+
+       If Codex asks you to connect the bundled OpenAI Platform app, complete
+       that setup so the plugin can create project API keys when needed.
+
+   5. Start a new thread
+
+       Open a new thread before using the plugin for the first time.
+    </WorkflowSteps>
+
+  </div>
+
+
+
+## Use the plugin
+
+After installation, start building with Codex! Codex can use the plugin
+automatically when the task calls for OpenAI Platform interactions, such as
+creating API keys, or troubleshooting API issues.
+
+The plugin is useful when you want Codex to:
+
+- build an app or agent that uses the OpenAI API
+- create an OpenAI API key for the app you are building
+- diagnose common OpenAI API errors and explain the next step.
+
+## Sample prompts
+
+<h3 className="not-prose mt-6 mb-3 text-base leading-6 font-medium text-default">
+  Build a new app
+</h3>
+
+<div className="not-prose my-5 grid gap-4 md:grid-cols-3">
+  </div>
+
+<h3 className="not-prose mt-8 mb-3 text-base leading-6 font-medium text-default">
+  Improve an existing app
+</h3>
+
+<div className="not-prose my-5 grid gap-4 md:grid-cols-3">
+  </div>
