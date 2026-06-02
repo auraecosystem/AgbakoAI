@@ -1,0 +1,70 @@
+project-root/
+├── src/
+│   ├── components/
+│   │   ├── cv/
+│   │   │   └── TimeLine.astro
+│   │   ├── BaseHead.astro
+│   │   ├── Card.astro
+│   │   ├── Footer.astro
+│   │   ├── Header.astro
+│   │   ├── HorizontalCard.astro
+│   │   ├── SideBar.astro
+│   │   ├── SideBarMenu.astro
+│   │   └── SideBarFooter.astro
+│   │
+│   ├── content/
+│   │   ├── blog/
+│   │   └── store/
+│   │
+│   ├── layouts/
+│   │   ├── BaseLayout.astro
+│   │   └── PostLayout.astro
+│   │
+│   ├── pages/
+│   │   ├── blog/
+│   │   │   ├── [...page].astro
+│   │   │   └── [slug].astro
+│   │   ├── cv.astro
+│   │   ├── index.astro
+│   │   ├── projects.astro
+│   │   ├── 404.astro
+│   │   └── rss.xml.js
+│   │
+│   ├── styles/
+│   │   └── global.css
+│   │
+│   ├── ai/
+│   ├── api/
+│   ├── blockchain/
+│   ├── wallet/
+│   ├── services/
+│   ├── hooks/
+│   ├── integrations/
+│   ├── plugins/
+│   ├── lib/
+│   ├── utils/
+│   ├── types/
+│   ├── tests/
+│   └── config.ts
+│
+├── public/
+│   ├── favicon.svg
+│   ├── profile.webp
+│   └── social_img.webp
+│
+├── docs/
+├── scripts/
+├── contracts/
+├── backend/
+├── frontend/
+│
+├── .github/
+│   └── copilot-instructions.md
+│
+├── README.md
+├── LICENSE
+├── AGENTS.md
+├── astro.config.mjs
+├── tailwind.config.cjs
+├── package.json
+└── tsconfig.json
