@@ -1,5 +1,4 @@
-cd m
-
+cd main
 # Run basic build
 go build .
 go build -overlay overlay.json -o main$GOEXE .
@@ -28,7 +27,6 @@ go build -overlay overlay.json -o main_cgo_angle$GOEXE ./cgo_hello_angle
 # Test with assembler
 go build -overlay overlay.json -o main_call_asm$GOEXE ./call_asm
 ./main_call_asm$GOEXE
-
 # Compile list and verify paths
 go list -compiled -overlay overlay.json -f '{{range .CompiledGoFiles}}{{. | printf "%s\n"}}{{end}}' ./cgo_hello_replace
 cp stdout compiled_cgo_sources.txt
