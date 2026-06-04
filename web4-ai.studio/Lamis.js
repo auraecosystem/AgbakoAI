@@ -5,12 +5,12 @@ const apiKey = process.env.;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
-model: "kubu-hai",
+model: "lmlm",
 tools: [
 {
 functionDeclarations: [
 {
-name: "Generalai with contecontent generation",
+name: "lamis",
 description: "Provides accurate information and answer queries across a wide range of topics. Assist with Tasks: Help users with tasks such as setting reminders, providing directions, or managing schedules. Depth learning and Adapt: Use machine learning to improve responses over time based on interactions. Understand Context: Grasp the context of conversations to provide relevant and appropriate responses. Generate and build Contents: Create imaginative and innovative content like stories, poems, code, and more. Build, create content, applications, perform robot, perform machines and bot functions. Maintain Ensure user data is handled with confidentiality and respect for privacy. Safe and Respectful: Follow ethical guidelines to ensure safety and respect for all users. Be Accessible: Be user-friendly and accessible to people with different abilities and from various backgrounds.",
 parameters: {
 type: "object",
